@@ -27,7 +27,7 @@ Mozark is a **remote MCP server** — no Node.js, no local install, nothing to k
 ### 📋 Test Case Management (TCM)
 Create, search, update, and organize test cases, folders, requirements, test plans, test runs, and bugs.
 
-\`\`\`
+```
 # Create test coverage
 "Generate negative functional test cases for the checkout flow and save them to the Payments folder."
 
@@ -36,45 +36,45 @@ Create, search, update, and organize test cases, folders, requirements, test pla
 
 # Track bugs
 "List open bugs assigned to me."
-\`\`\`
+```
 
 ### 🤖 AI Test Generation
 Generate functional, edge-case, or automation test cases from screenshots and requirement documents, then save them with AI-provenance tags.
 
-\`\`\`
+```
 "Generate edge-case tests for offline mode."
 "Which existing cases cover guest checkout?"
 "Find duplicate test cases in this project and show me what you'd merge."
-\`\`\`
+```
 
 ### 📚 Knowledge Base
 Upload screenshots, PRDs, BRDs, and user stories so generated tests are grounded in your real app, not guesswork.
 
-\`\`\`
+```
 "Index this PRD so future test generation understands the new checkout flow."
-\`\`\`
+```
 
 ### 📱 Real-Device Execution (Optics)
 Run a test case step-by-step on a real Android or iOS device, with visual verification at every step and results recorded automatically.
 
-\`\`\`
+```
 "Run TR-12 on a free Pixel 7 with screen recording on."
-\`\`\`
+```
 
 ### 🔧 Device Automation (Appium)
 Start raw Appium sessions on Mozark cloud devices — install your app, find and tap elements, capture screenshots and logs.
 
-\`\`\`
+```
 "Install my APK on a Pixel 7 and take a screenshot of the home screen."
-\`\`\`
+```
 
 ### 🛡️ Admin Control Panel (ACP)
 Look up organizations, projects, apps, users, roles, and plan usage.
 
-\`\`\`
+```
 "How much of our device-hours quota have we used this month?"
 "Who has access to the Checkout project?"
-\`\`\`
+```
 
 ## 🛠️ Installation
 
@@ -90,13 +90,13 @@ No prerequisites — Mozark is fully hosted, so there's nothing to install or ke
 5. In a new chat, open the tools menu and make sure **Mozark** is toggled on
 
 **Claude Code** — run once in a terminal:
-\`\`\`bash
+```bash
 claude mcp add --transport http mozark https://mcp.mozark.ai/mcp
-\`\`\`
+```
 Then run `/mcp` inside a session and choose **Mozark** to authenticate.
 
 **Cursor** — `~/.cursor/mcp.json`:
-\`\`\`json
+```json
 {
   "mcpServers": {
     "mozark": {
@@ -104,10 +104,10 @@ Then run `/mcp` inside a session and choose **Mozark** to authenticate.
     }
   }
 }
-\`\`\`
+```
 
 **VS Code (Copilot)** — `.vscode/mcp.json`:
-\`\`\`json
+```json
 {
   "servers": {
     "mozark": {
@@ -116,10 +116,10 @@ Then run `/mcp` inside a session and choose **Mozark** to authenticate.
     }
   }
 }
-\`\`\`
+```
 
 **Windsurf** — Settings → Cascade → MCP servers:
-\`\`\`json
+```json
 {
   "mcpServers": {
     "mozark": {
@@ -127,12 +127,12 @@ Then run `/mcp` inside a session and choose **Mozark** to authenticate.
     }
   }
 }
-\`\`\`
+```
 
 **Codex:**
-\`\`\`bash
+```bash
 codex mcp add mozark --url https://mcp.mozark.ai/mcp
-\`\`\`
+```
 
 After connecting, sign in and authorize access to your Mozark workspace. Verify with: *"Are you connected to Mozark? Show me my active context."*
 
