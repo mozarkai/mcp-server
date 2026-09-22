@@ -17,8 +17,8 @@ Upload screenshots, PRDs, and requirement docs so every AI-generated test case i
 
 Mozark is a **remote MCP server** — no Node.js, no local install, nothing to keep updated. Click a button, or point any Streamable-HTTP client at the URL below.
 
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Mozark_MCP-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=white)](vscode:mcp/install?%7B%22name%22%3A%22mozark%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.mozark.ai%2Fmcp%22%7D)
-[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=mozark&config=eyJ1cmwiOiJodHRwczovL21jcC5tb3phcmsuYWkvbWNwIn0=)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Mozark_MCP-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode:mcp/install%3F%7B%22name%22%3A%22mozark%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.mozark.ai%2Fmcp%22%7D)
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=mozark&config=eyJ1cmwiOiJodHRwczovL21jcC5tb3phcmsuYWkvbWNwIn0%3D)
 
 > **Note:** the remote server (`mcp.mozark.ai/mcp`) works the same way across every supported client — no config differences to manage between them.
 
