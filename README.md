@@ -17,7 +17,7 @@ Upload screenshots, PRDs, and requirement docs so every AI-generated test case i
 
 Mozark is a **remote MCP server** — no Node.js, no local install, nothing to keep updated. Click a button, or point any Streamable-HTTP client at the URL below.
 
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Mozark_MCP-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode:mcp/install%3F%7B%22name%22%3A%22mozark%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.mozark.ai%2Fmcp%22%7D)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/mozark-mcp.mozark-mcp?style=for-the-badge&label=VS%20Code%20Marketplace&color=0098FF&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=mozark-mcp.mozark-mcp)
 [![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=mozark&config=eyJ1cmwiOiJodHRwczovL21jcC5tb3phcmsuYWkvbWNwIn0%3D)
 
 > **Note:** the remote server (`mcp.mozark.ai/mcp`) works the same way across every supported client — no config differences to manage between them.
@@ -106,7 +106,7 @@ Then run `/mcp` inside a session and choose **Mozark** to authenticate.
 }
 ```
 
-**VS Code (Copilot)** — `.vscode/mcp.json`:
+**VS Code (Copilot):** the simplest path is installing the [Mozark extension from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=mozark-mcp.mozark-mcp) — it registers the server automatically, no config file needed. Alternatively, add it manually via `.vscode/mcp.json`:
 ```json
 {
   "servers": {
