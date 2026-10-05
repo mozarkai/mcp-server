@@ -1,3 +1,15 @@
+---
+name: Mozark
+description: Unified testing platform with test case management, AI test generation, real-device execution, and device automation
+keywords:
+  - testing
+  - qa
+  - mcp
+  - device-automation
+  - ai-agents
+author: Mozark
+--- # Mozark Kiro Power
+
 # Mozark Kiro Power
 
 [Mozark](https://mozark.ai) is a unified testing platform that connects test case management, AI test generation, real-device execution, and device automation — all accessible via MCP.
